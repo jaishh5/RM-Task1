@@ -16,6 +16,12 @@ function myFunction(x) {
   }
 }
 
+  $(".menu a").on('click', function(){
+    $("html, body").animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+    }, 1000);
+  });
+
 const toShow= document.querySelectorAll('.show-on-scroll');
 
 observer= new IntersectionObserver((entries)=>{
@@ -34,10 +40,3 @@ toShow.forEach(ele=>{
 	console.log(ele)
 })
 
-//LightBox
-
-lightbox.option({
-      'resizeDuration': 200,
-      'wrapAround': true,
-      'disableScrolling':true
-    })
