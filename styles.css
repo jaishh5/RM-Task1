@@ -141,6 +141,7 @@ header {
 
 @media only screen and (max-width: 992px){
     .grid {
+        height: 50vh;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas: 
