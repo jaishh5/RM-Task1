@@ -161,7 +161,7 @@ position: absolute;
 @media only screen and (max-width: 992px){
     .grid {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: .7fr .7fr;
+        grid-template-rows: .5fr .5fr;
         grid-template-areas: 
             "box1 box2"
             "box1 box3";
