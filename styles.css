@@ -160,6 +160,7 @@ position: absolute;
 
 @media only screen and (max-width: 992px){
     .grid {
+	height: 70vh;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: .5fr .5fr;
         grid-template-areas: 
