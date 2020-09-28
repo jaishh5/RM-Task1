@@ -122,7 +122,7 @@ position: absolute;
   transition: 0.75s all ease;
 }
 
-.overlay {
+/*.overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -139,11 +139,11 @@ position: absolute;
 .inner:hover .overlay {
   opacity: 0.5;
   transition: 0.75s all ease;
-}
+}*/
 
 .inner:hover img {
   object-fit: cover;
-  transform: scale(0.9);
+  transform: scale(0.95);
 }
 
 #box1 {
