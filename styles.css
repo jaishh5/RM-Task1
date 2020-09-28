@@ -30,8 +30,8 @@ body {
 }
 
 .nav-link {
-	font-size: 18px;
-  font-family: JosefinSans;
+    font-size: 18px;
+    font-family: JosefinSans;
 }
 
 header {
@@ -49,6 +49,10 @@ header {
 .bg-black {
     background: #000;
     transition: 0.5s ease-in;
+}
+
+h2, h3 {
+    font-family: Orbitron;
 }
 
 .about {
@@ -109,6 +113,7 @@ header {
 .inner {
     overflow: hidden;
     position: relative;
+    font-family: JosefinSans;
 }
 
 .inner img{
