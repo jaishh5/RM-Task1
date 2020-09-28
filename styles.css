@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Bangers';
+  src: url('./assets/font/Bangers-Regular.tff');
+}
+
 body {
 	background-color: black;
 	color: white;
@@ -158,7 +163,7 @@ position: absolute;
     grid-area: box3;
 }
 
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 768px){
     .grid {
 	height: 60vh;
         grid-template-columns: 1fr 1fr;
@@ -169,10 +174,28 @@ position: absolute;
     }
 }
 
+@media (max-width: 768px) {
+    #logo{
+      content: url("assets/images/logo2.jpg");
+    }
+}
+
+@media (max-width: 768px) {
+    .sponsor img {
+      width: 48%;
+    }
+}
+
+@media (min-width: 769px) {
+    .sponsor img {
+      width: 24%;
+    }
+}
+
+
 .sponsor img {
-    width: 24%;
     padding: 10px 10px 10px 10px;
-    display: inline-block;
+    display: inline;
     margin-left: auto;
     margin-right: auto;
 }
