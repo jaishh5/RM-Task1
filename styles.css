@@ -1,6 +1,15 @@
+
 @font-face {
-  font-family: 'Bangers';
-  src: url('./assets/font/Bangers-Regular.tff');
+  font-family: 'JosefinSans';
+  src: url('./assets/font/JosefinSans-Medium.ttf');
+}
+@font-face {
+  font-family: 'Orbitron';
+  src: url('assets/font/Orbitron-Medium.ttf');
+}
+@font-face {
+  font-family: 'Rosario';
+  src: url('./assets/font/Rosario-Regular.ttf');
 }
 
 body {
@@ -22,6 +31,7 @@ body {
 
 .nav-link {
 	font-size: 18px;
+  font-family: JosefinSans;
 }
 
 header {
