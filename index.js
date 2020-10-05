@@ -22,6 +22,10 @@ function myFunction(x) {
     }, 1000);
   });
 
+  $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+  });
+
 const toShow= document.querySelectorAll('.show-on-scroll');
 
 observer= new IntersectionObserver((entries)=>{

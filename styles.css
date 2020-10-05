@@ -34,11 +34,11 @@ body {
     font-family: JosefinSans;
 }
 
-header {
+.index {
 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('assets/images/bg_main.jpg');
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
 .bg-dark {
@@ -51,8 +51,9 @@ header {
     transition: 0.5s ease-in;
 }
 
-h2, h3 {
+h1, h2, h3 {
     font-family: Orbitron;
+    text-align: center;
 }
 
 .about {
@@ -178,6 +179,12 @@ position: absolute;
     grid-area: box3;
 }
 
+.competitions {
+  background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), url('assets/images/2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
 @media only screen and (max-width: 768px){
     .grid {
 	height: 60vh;
@@ -197,22 +204,31 @@ position: absolute;
 
 @media (max-width: 768px) {
     .sponsor img {
-      width: 48%;
+      width: 51%;
+      display: block;
     }
+
+    .profile img {
+      width: 40%;
+      display: block;
+    }
+    
 }
 
 @media (min-width: 769px) {
     .sponsor img {
       width: 24%;
     }
+
+    .profile img {
+      width: 60%;
+    }
 }
 
 
 .sponsor img {
     padding: 10px 10px 10px 10px;
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .contact {
@@ -224,16 +240,44 @@ position: absolute;
     background-position: center; */
 }
 
+.profile {
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.profile img {
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.profile h4 {
+  padding-top: 20px;
+}
+
+.profile a {
+  font-size: 1.25rem;
+  padding: .25rem;
+  text-decoration: none;
+}
+
 .fa-facebook {
-    color: #1877F2;
+  color: #1877F2;
 }
 
 .fa-instagram {
-    color: #E1306C;
+  color: #E1306C;
 }
 
 .fa-linkedin {
-    color: #2867B2;
+  color: #2867B2;
+}
+
+.fa-linkedin-square {
+  color: #2867B2;
+}
+
+.fa-github-square {
+  color: #999;
 }
 
 footer {
