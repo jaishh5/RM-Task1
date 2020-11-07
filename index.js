@@ -44,3 +44,34 @@ toShow.forEach(ele=>{
 	console.log(ele)
 })
 
+$(document).ready(function() {
+  $('.gallery1').magnificPopup({
+    type:'image',
+    delegate: 'a',
+    gallery: { enabled: true }
+  });
+});
+
+$(document).ready(function() {
+  $('.gallery2').magnificPopup({
+    type:'image',
+    delegate: 'a',
+    gallery: { enabled: true }
+  });
+});
+
+$(document).ready(function() {
+  $('.gallery3').magnificPopup({
+    type:'image',
+    delegate: 'a',
+    gallery: { enabled: true }
+  });
+});
+
+$(document).ready(function() {
+  $('.gallery4').magnificPopup({
+    type:'image',
+    delegate: 'a',
+    gallery: { enabled: true }
+  });
+});
