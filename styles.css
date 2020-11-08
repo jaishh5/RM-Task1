@@ -137,7 +137,7 @@ h1, h2, h3 {
 .work img {
   width: 200px;
   float: right;
-  margin-right: 50px;
+  margin-right: 60px;
   border-radius: 10px;
 }
 
@@ -271,3 +271,6 @@ footer {
     background-color: black;
 }
 
+.dropdown-item:hover {
+  background-color: black;
+}
