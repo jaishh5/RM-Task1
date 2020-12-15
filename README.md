@@ -1,2 +1,2 @@
 # RoboManipal Taskphase
-https://jaishh5.github.io/RMtask/
+https://jaishh5.github.io/RM_VanillaJS/
